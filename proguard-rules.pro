@@ -1,0 +1,3 @@
+-keepattributes *Annotation*
+-keepclassmembers class com.pdfmakerstudio.app.domain.model.** { *; }
+-dontwarn com.google.errorprone.annotations.**

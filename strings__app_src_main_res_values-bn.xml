@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">পিডিএফ মেকার স্টুডিও</string>
+    <string name="tagline">A4 পিডিএফ তৈরি করুন এবং নিরাপদে ক্লাউডে সংরক্ষণ করুন</string>
+    <string name="sign_in">সাইন ইন</string>
+    <string name="create_account">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="continue_with_google">Google দিয়ে চালিয়ে যান</string>
+    <string name="logout">লগআউট</string>
+    <string name="images_to_pdf">ছবি থেকে পিডিএফ</string>
+    <string name="text_to_pdf">টেক্সট থেকে পিডিএফ</string>
+    <string name="my_cloud_files">আমার ক্লাউড ফাইল</string>
+    <string name="no_files_yet">এখনো কোনো পিডিএফ আপলোড করা হয়নি</string>
+</resources>

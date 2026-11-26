@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PDF Maker Studio</string>
+    <string name="default_web_client_id" translatable="false">715801994005-is6pu5n1h3kfrqpi30i0husgvra4t32m.apps.googleusercontent.com</string>
+    <string name="firebase_database_id" translatable="false">ai-studio-d8e4c344-5d7d-4156-80fb-64e9ef155d37</string>
+    <string name="tagline">Create A4 PDFs &amp; sync securely to cloud</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="logout">Logout</string>
+    <string name="images_to_pdf">Images to PDF</string>
+    <string name="text_to_pdf">Text to PDF</string>
+    <string name="my_cloud_files">My Cloud Files</string>
+    <string name="no_files_yet">No PDFs uploaded yet</string>
+</resources>

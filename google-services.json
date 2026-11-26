@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "715801994005",
+    "project_id": "chrome-scene-0k4jk",
+    "storage_bucket": "chrome-scene-0k4jk.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715801994005:android:pdfmakerstudioapp",
+        "android_client_info": {
+          "package_name": "com.pdfmakerstudio.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715801994005-is6pu5n1h3kfrqpi30i0husgvra4t32m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw46BlQMDeXAhT6CeoSStaPVBUQZaLYks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715801994005-is6pu5n1h3kfrqpi30i0husgvra4t32m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

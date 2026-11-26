@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="generated_pdfs" path="generated/" />
+    <cache-path name="downloaded_pdfs" path="downloads/" />
+    <cache-path name="camera_scans" path="camera_scans/" />
+    <files-path name="scanned_pages" path="scanned_pages/" />
+    <files-path name="imported_word_media" path="imported_word_media/" />
+</paths>

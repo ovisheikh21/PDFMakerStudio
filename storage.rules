@@ -1,0 +1,25 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Deny all by default
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+
+    // User-owned PDF files under users/{uid}/pdfs/{fileName}
+    match /users/{userId}/pdfs/{fileName} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow create, update: if request.auth != null
+        && request.auth.uid == userId
+        && fileName.size() >= 5
+        && fileName.size() <= 160
+        && fileName.matches('^[a-zA-Z0-9._\\-]+\\.pdf$')
+        && request.resource != null
+        && request.resource.size > 0
+        && request.resource.size <= 25 * 1024 * 1024
+        && request.resource.contentType == 'application/pdf';
+      allow delete: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
